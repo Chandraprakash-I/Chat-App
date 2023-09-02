@@ -8,7 +8,7 @@
   "description": "What am I about?",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
@@ -18,7 +18,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.16.1",
     "express-session": "~1.17.1",
-    "mongodb": "^3.6.1",
+    "mongodb": "~3.6.0",
     "passport": "^0.4.1",
     "passport-github": "~1.1.0",
     "passport-local": "~1.0.0",
@@ -39,6 +39,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "@types/mongodb": "~3.6.0",
+    "nodemon": "^2.0.22"
   }
 }
